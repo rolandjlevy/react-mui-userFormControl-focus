@@ -13,7 +13,7 @@ function MyFormHelperText() {
     if (focused) {
       return 'This field is being focused';
     }
-    return 'Helper text';
+    return 'Helper text for unfocused';
   }, [focused]);
   return <FormHelperText>{helperText}</FormHelperText>;
 }
